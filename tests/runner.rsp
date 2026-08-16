@@ -1,0 +1,16 @@
+/nologo
+/t:exe
+/platform:anycpu
+/optimize+
+/r:System.Drawing.dll
+/r:System.Management.dll
+/r:System.Windows.Forms.dll
+/out:tests\runner.exe
+tests\TestMain.cs
+Config.cs
+DshProcess.cs
+Win32.cs
+Logging.cs
+IniFile.cs
+Lang.cs
+UpdateCheck.cs

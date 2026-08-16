@@ -1,0 +1,17 @@
+# 测试产物
+smoke-result.txt
+menu-test.txt
+menu-test.png
+find-window-result.txt
+*-preview-*.png
+
+# 集成测试产物
+tests/runner.exe
+tests/integration-result.txt
+tests/mock-dsh-ready.txt
+
+# 用户本地配置(绝不入库)
+dshtray.ini
+
+# 个人开发工具与本地记录(不入库)
+.devtools/
